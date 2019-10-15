@@ -1,8 +1,9 @@
+<?php $var = 'PHP Tutorial' ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title><?php $var ?></title>
+	<title><?php echo $var; ?></title>
 </head>
 <body>
 	//1.
@@ -12,10 +13,12 @@
 	<p><?php echo $MyInfo[0] ; ?></p>
 	//2.
 	<?php
-		//$cylinder = [radius,height];
-		$Cylinder = [1,1];
-		Area = 2 * Pi * radius * radius + 2 x pi * radius * height
-		$Volume = pi * radius * radius * height
+		$cylinderArr=array(
+			"Radius" =>[4],
+			"Height" =>[9]
+			);
+		echo "Area = ".(2 * 3.14 * $cylinderArr["Radius"][0] * $cylinderArr["Radius"][0] + 2 * 3.14 * $cylinderArr["Radius"][0] * $cylinderArr["Height"][0])."<br>";// 
+		echo "Volume = ".(3.14 * $cylinderArr["Radius"][0] * $cylinderArr["Radius"][0] * $cylinderArr["Height"][0])."<br>";
 	?>
 
 	//3.
