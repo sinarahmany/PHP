@@ -36,6 +36,17 @@ if(abs($a-$b) > abs($c-$d)){
 echo "<br>*************************************<br>";
 //generate a float number like 0.xx
 echo mt_rand(1,100)/100;
+echo "<br>*************************************<br>";
+$course = "php classroom";
+echo strtoupper($course);
+echo "<br>";
+echo strtolower($course);
+echo "<br>";
+//just make the first word upper case
+echo ucfirst($course);
+echo "<br>";
+//make the first of each word upper case
+echo ucwords($course);
 
 
  
