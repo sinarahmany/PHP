@@ -1,0 +1,63 @@
+body{
+		margin: 0;
+		font-family: 'Open Sans', sans-serif;
+					flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: black;
+
+		}
+header{
+		margin: 0 auto;
+		background-color: #02052D;
+		}
+	    ul {
+            list-style-type:none;
+            margin: 0 auto;
+              overflow: hidden;
+  background-color: #333;
+  padding: 0; 
+        	/*max-height:56px;*/
+        }
+        nav{
+        	position: fixed;
+        	width: 100%;
+        	z-index: 1
+        	
+
+
+
+
+                }
+		nav ul li {
+			margin:0 auto;
+			display: inline-block;			
+			text-align: center;
+		}
+		
+		nav ul a{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+		}
+	nav ul	a:hover{
+  background-color: #581F65;
+  color: black;
+		}
+		.home{
+			  background-color: black;
+  color: white;
+		}
+		section.imga{
+	background-image: url(../images/bb.jpg);
+	height: 900px;
+			width: 100% ;
+			background-size:cover;
+			background-position: bottom;
+	        overflow:hidden;
+	        margin:0 auto;
+		    background-attachment: fixed;
+}
