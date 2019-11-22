@@ -1,0 +1,14 @@
+body{
+	background-color: #DADADA;
+	background-image: url("https://merttan.com/wp-content/uploads/2014/03/mert-linkedin.jpg");
+	height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.column{
+	max-width: 450px;
+}
+
